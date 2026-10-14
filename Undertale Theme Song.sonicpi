@@ -1,0 +1,1017 @@
+#-- Sonic Pi Set v1
+#-- meta {"current":0,"description":"Remake using Sonic pi","name":"Undertale Theme Song","size":8,"zooms":[2,2,2,2,2,2,2,2,2,2]}
+#-- buffer 0
+with_fx :reverb, room:  0.8 do
+  with_fx :echo,  mix: 0.2, decay: 0.2 do
+    2.times do
+      use_synth :piano
+      play :bb3, decay: 0.5
+      wait 0.5
+      play :f4, decay: 0.5
+      play :eb2, decay: 0.5
+      wait 0.5
+      play :eb4, decay: 0.5
+      wait 0.5
+      play :bb3, decay: 0.5
+      play :eb2, decay: 0.5
+      wait 0.5
+      play :d4, decay: 0.75
+      wait 0.5
+      play :eb2, decay: 0.5
+      wait 0.25
+      play :d4, decay: 0.75
+      wait 0.75
+      play :eb4, decay: 0.5
+      play :eb2, decay: 0.5
+      wait 0.5
+      wait 0.5
+      play :bb3, decay: 0.5
+      play :eb2, decay: 0.5
+      wait 0.5
+      play :eb4, decay: 0.5
+      wait 0.5
+      play :bb3, decay: 0.5
+      play :eb2, decay: 0.5
+      wait 0.5
+      play :d4, decay: 0.75
+      wait 0.5
+      play :eb2, decay: 0.5
+      wait 0.25
+      play :d4, decay: 0.75
+      wait 0.75
+      play :eb4, decay: 0.5
+      play :eb2, decay: 0.5
+      wait 0.5
+      play :bb3, decay: 0.5
+      wait 0.5
+      play :f4, decay: 0.5
+      play :eb2, decay: 0.5
+      wait 0.5
+      play :eb4, decay: 0.5
+      wait 0.5
+      play :bb3, decay: 0.5
+      play :eb2, decay: 0.5
+      wait 0.5
+      play :d4, decay: 0.75
+      wait 0.5
+      play :eb2, decay: 0.5
+      wait 0.25
+      play :d4, decay: 0.75
+      wait 0.75
+      play :eb4, decay: 0.5
+      play :eb2, decay: 0.5
+      wait 0.5
+      wait 0.5
+      play :bb3, decay: 0.5
+      play :eb2, decay: 0.5
+      wait 0.5
+      play :eb4, decay: 0.5
+      wait 0.5
+      play :g4, decay: 0.5
+      play :eb2, decay: 0.5
+      wait 0.5
+      play :f4, decay: 0.75
+      wait 0.5
+      play :eb2, decay: 0.5
+      wait 0.25
+      play :eb4, decay: 0.75
+      wait 0.75
+      play :f4, decay: 0.5
+      play :eb2, decay: 0.5
+      wait 0.5
+    end
+  end
+end
+
+with_fx :reverb, room:  0.8 do
+  with_fx :echo,  mix: 0.2, decay: 0.2 do
+    4.times do
+      use_synth :piano
+      play :bb3, decay: 0.5
+      play :ab2, decay: 0.5
+      wait 0.5
+      play :f4, decay: 0.5
+      play :eb3, decay: 0.5
+      wait 0.5
+      play :eb4, decay: 0.5
+      play :ab2, decay: 0.5
+      wait 0.5
+      play :bb3, decay: 0.5
+      play :eb3, decay: 0.5
+      wait 0.5
+      play :d4, decay: 0.75
+      play :ab2, decay: 0.5
+      wait 0.5
+      play :eb3, decay: 0.5
+      wait 0.25
+      play :d4, decay: 0.75
+      wait 0.25
+      play :ab2, decay: 0.5
+      wait 0.5
+      play :eb4, decay: 0.5
+      play :eb3, decay: 0.5
+      wait 0.5
+      play :ab2, decay: 0.5
+      wait 0.5
+      play :bb3, decay: 0.5
+      play :eb3, decay: 0.5
+      wait 0.5
+      play :ab2, decay: 0.5
+      play :eb4, decay: 0.5
+      wait 0.5
+      play :bb3, decay: 0.5
+      play :eb3, decay: 0.5
+      wait 0.5
+      play :d4, decay: 0.75
+      play :ab2, decay: 0.5
+      wait 0.5
+      play :eb3, decay: 0.5
+      wait 0.25
+      play :d4, decay: 0.75
+      wait 0.25
+      play :ab2, decay: 0.5
+      wait 0.5
+      play :eb4, decay: 0.5
+      play :eb3, decay: 0.5
+      wait 0.5
+      play :bb3, decay: 0.5
+      play :g2, decay: 0.5
+      wait 0.5
+      play :f4 , decay: 0.5
+      play :eb3 , decay: 0.5
+      wait 0.5
+      play :eb4 , decay: 0.5
+      play :g2 , decay: 0.5
+      wait 0.5
+      play :bb3 , decay: 0.5
+      play :eb2 , decay: 0.5
+      wait 0.5
+      play :d4, decay: 0.75
+      play :g2 , decay: 0.5
+      wait 0.5
+      play :eb2, decay: 0.5
+      wait 0.25
+      play :d4, decay: 0.75
+      wait 0.25
+      play :g2 , decay: 0.5
+      wait 0.5
+      play :eb4, decay: 0.5
+      play :eb3, decay: 0.5
+      wait 0.5
+      play :g2, decay: 0.5
+      wait 0.5
+      play :bb3, decay: 0.5
+      play :eb3, decay: 0.5
+      wait 0.5
+      play :eb4, decay: 0.5
+      play :g2, decay: 0.5
+      wait 0.5
+      play :g4, decay: 0.5
+      play :eb3, decay: 0.5
+      wait 0.5
+      play :f4, decay: 0.75
+      play :g2, decay: 0.5
+      wait 0.5
+      play :eb3, decay: 0.5
+      wait 0.25
+      play :eb4, decay: 0.75
+      wait 0.25
+      play :g2 , decay: 0.5
+      wait 0.5
+      play :f4 , decay: 0.5
+      play :eb2, decay: 0.5
+      wait 0.5
+    end
+  end
+end
+
+with_fx :reverb, room:  0.8 do
+  with_fx :echo,  mix: 0.2, decay: 0.2 do
+    use_synth :piano
+    play :bb3, decay: 0.5
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :f4, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :eb4, decay: 0.5
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :bb3, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :d4, decay: 0.75
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :eb3, decay: 0.5
+    wait 0.25
+    play :d4, decay: 0.75
+    wait 0.25
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :eb4, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :bb3, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :ab2, decay: 0.5
+    play :eb4, decay: 0.5
+    wait 0.5
+    play :bb3, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :d4, decay: 0.75
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :eb3, decay: 0.5
+    wait 0.25
+    play :d4, decay: 0.75
+    wait 0.25
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :eb4, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :bb3, decay: 0.5
+    play :g2, decay: 0.5
+    wait 0.5
+    play :f4 , decay: 0.5
+    play :eb3 , decay: 0.5
+    wait 0.5
+    play :eb4 , decay: 0.5
+    play :g2 , decay: 0.5
+    wait 0.5
+    play :bb3 , decay: 0.5
+    play :eb2 , decay: 0.5
+    wait 0.5
+    play :d4, decay: 0.75
+    play :g2 , decay: 0.5
+    wait 0.5
+    play :eb2, decay: 0.5
+    wait 0.25
+    play :d4, decay: 0.75
+    wait 0.25
+    play :g2 , decay: 0.5
+    wait 0.5
+    play :eb4, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :bb3, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :eb4, decay: 0.5
+    play :g4, decay: 0.5
+    wait 0.5
+    play :f4, decay: 0.75
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :eb3, decay: 0.5
+    wait 0.25
+    play :eb4, decay: 0.75
+    wait 0.25
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :f4, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :bb3, decay: 0.5
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :f4, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :eb4, decay: 0.5
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :bb3, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :d4, decay: 0.75
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :eb3, decay: 0.5
+    wait 0.25
+    play :d4, decay: 0.75
+    wait 0.25
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :eb4, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :bb3, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :ab2, decay: 0.5
+    play :eb4, decay: 0.5
+    wait 0.5
+    play :bb3, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :d4, decay: 0.75
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :eb3, decay: 0.5
+    wait 0.25
+    play :d4, decay: 0.75
+    wait 0.25
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :eb4, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :bb3, decay: 0.5
+    play :g2, decay: 0.5
+    wait 0.5
+    play :f4 , decay: 0.5
+    play :eb3 , decay: 0.5
+    wait 0.5
+    play :eb4 , decay: 0.5
+    play :g2 , decay: 0.5
+    wait 0.5
+    play :bb3 , decay: 0.5
+    play :eb2 , decay: 0.5
+    wait 0.5
+    play :d4, decay: 0.75
+    play :g2 , decay: 0.5
+    wait 0.5
+    play :eb2, decay: 0.5
+    wait 0.25
+    play :d4, decay: 0.75
+    wait 0.25
+    play :g2 , decay: 0.5
+    wait 0.5
+    play :eb4, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play 36
+  end
+end
+with_fx :reverb, room:  0.8 do
+  with_fx :echo,  mix: 0.2, decay: 0.2 do
+    6.times do
+      use_synth :piano
+      play :bb3, decay: 0.5
+      play :ab2, decay: 0.5
+      wait 0.5
+      play :f4, decay: 0.5
+      play :eb3, decay: 0.5
+      wait 0.5
+      play :eb4, decay: 0.5
+      play :ab2, decay: 0.5
+      wait 0.5
+      play :bb3, decay: 0.5
+      play :eb3, decay: 0.5
+      wait 0.5
+      play :d4, decay: 0.75
+      play :ab2, decay: 0.5
+      wait 0.5
+      play :eb3, decay: 0.5
+      wait 0.25
+      play :d4, decay: 0.75
+      wait 0.25
+      play :ab2, decay: 0.5
+      wait 0.5
+      play :eb4, decay: 0.5
+      play :eb3, decay: 0.5
+      wait 0.5
+      play :ab2, decay: 0.5
+      wait 0.5
+      play :bb3, decay: 0.5
+      play :eb3, decay: 0.5
+      wait 0.5
+      play :ab2, decay: 0.5
+      play :eb4, decay: 0.5
+      wait 0.5
+      play :bb3, decay: 0.5
+      play :eb3, decay: 0.5
+      wait 0.5
+      play :d4, decay: 0.75
+      play :ab2, decay: 0.5
+      wait 0.5
+      play :eb3, decay: 0.5
+      wait 0.25
+      play :d4, decay: 0.75
+      wait 0.25
+      play :ab2, decay: 0.5
+      wait 0.5
+      play :eb4, decay: 0.5
+      play :eb3, decay: 0.5
+      wait 0.5
+      play :bb3, decay: 0.5
+      play :g2, decay: 0.5
+      wait 0.5
+      play :f4 , decay: 0.5
+      play :eb3 , decay: 0.5
+      wait 0.5
+      play :eb4 , decay: 0.5
+      play :g2 , decay: 0.5
+      wait 0.5
+      play :bb3 , decay: 0.5
+      play :eb2 , decay: 0.5
+      wait 0.5
+      play :d4, decay: 0.75
+      play :g2 , decay: 0.5
+      wait 0.5
+      play :eb2, decay: 0.5
+      wait 0.25
+      play :d4, decay: 0.75
+      wait 0.25
+      play :g2 , decay: 0.5
+      wait 0.5
+      play :eb4, decay: 0.5
+      play :eb3, decay: 0.5
+      wait 0.5
+      play :g2, decay: 0.5
+      wait 0.5
+      play :bb3, decay: 0.5
+      play :eb3, decay: 0.5
+      wait 0.5
+      play :eb4, decay: 0.5
+      play :g2, decay: 0.5
+      wait 0.5
+      play :g4, decay: 0.5
+      play :eb3, decay: 0.5
+      wait 0.5
+      play :f4, decay: 0.75
+      play :g2, decay: 0.5
+      wait 0.5
+      play :eb3, decay: 0.5
+      wait 0.25
+      play :eb4, decay: 0.75
+      wait 0.25
+      play :g2 , decay: 0.5
+      wait 0.5
+      play :f4 , decay: 0.5
+      play :eb2, decay: 0.5
+      wait 0.5
+    end
+  end
+end
+
+with_fx :reverb, room:  0.8 do
+  with_fx :echo,  mix: 0.2, decay: 0.2 do
+    use_synth :piano
+    play :bb3, decay: 0.5
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :f4, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :eb4, decay: 0.5
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :bb3, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :d4, decay: 0.75
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :eb3, decay: 0.5
+    wait 0.25
+    play :d4, decay: 0.75
+    wait 0.25
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :eb4, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :bb3, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :ab2, decay: 0.5
+    play :eb4, decay: 0.5
+    wait 0.5
+    play :bb3, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :d4, decay: 0.75
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :eb3, decay: 0.5
+    wait 0.25
+    play :d4, decay: 0.75
+    wait 0.25
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :eb4, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :bb3, decay: 0.5
+    play :g2, decay: 0.5
+    wait 0.5
+    play :f4 , decay: 0.5
+    play :eb3 , decay: 0.5
+    wait 0.5
+    play :eb4 , decay: 0.5
+    play :g2 , decay: 0.5
+    wait 0.5
+    play :bb3 , decay: 0.5
+    play :eb2 , decay: 0.5
+    wait 0.5
+    play :d4, decay: 0.75
+    play :g2 , decay: 0.5
+    wait 0.5
+    play :eb2, decay: 0.5
+    wait 0.25
+    play :d4, decay: 0.75
+    wait 0.25
+    play :g2 , decay: 0.5
+    wait 0.5
+    play :eb4, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :bb3, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :eb4, decay: 0.5
+    play :g4, decay: 0.5
+    wait 0.5
+    play :f4, decay: 0.75
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :eb3, decay: 0.5
+    wait 0.25
+    play :eb4, decay: 0.75
+    wait 0.25
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :f4, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :bb3, decay: 0.5
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :f4, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :eb4, decay: 0.5
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :bb3, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :d4, decay: 0.75
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :eb3, decay: 0.5
+    wait 0.25
+    play :d4, decay: 0.75
+    wait 0.25
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :eb4, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :bb3, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :ab2, decay: 0.5
+    play :eb4, decay: 0.5
+    wait 0.5
+    play :bb3, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :d4, decay: 0.75
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :eb3, decay: 0.5
+    wait 0.25
+    play :d4, decay: 0.75
+    wait 0.25
+    play :ab2, decay: 0.5
+    wait 0.5
+    play :eb4, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play :bb3, decay: 0.5
+    play :g2, decay: 0.5
+    wait 0.5
+    play :f4 , decay: 0.5
+    play :eb3 , decay: 0.5
+    wait 0.5
+    play :eb4 , decay: 0.5
+    play :g2 , decay: 0.5
+    wait 0.5
+    play :bb3 , decay: 0.5
+    play :eb2 , decay: 0.5
+    wait 0.5
+    play :d4, decay: 0.75
+    play :g2 , decay: 0.5
+    wait 0.5
+    play :eb2, decay: 0.5
+    wait 0.25
+    play :d4, decay: 0.75
+    wait 0.25
+    play :g2 , decay: 0.5
+    wait 0.5
+    play :eb4, decay: 0.5
+    play :eb3, decay: 0.5
+    wait 0.5
+    play 36
+  end
+end
+#-- buffer 1
+with_fx :echo, pre_amp: 3, decay: 2 do
+  1.times do
+    use_synth :piano
+    play :bb4, decay: 2
+    wait 2
+    play :bb5, decay: 2
+    wait 2
+    play :f5, decay: 2
+    wait 2
+    play :f5, decay: 2
+    wait 2
+    play :eb5, decay: 2
+    wait 2
+    play :bb5, decay: 2
+    wait 2
+    play :bb4, decay: 2
+    wait 2
+    play :bb4, decay: 2
+    wait 2
+    play :bb4, decay: 2
+    wait 2
+    play :d5, decay: 2
+    wait 2
+    play :bb5, decay: 2
+    wait 2
+    play :bb5, decay: 0.75
+    wait 0.75
+    play :c6, decay: 1.25
+    wait 1.25
+    play :bb5, decay: 2
+    wait 2
+    play :f5, decay: 2
+    wait 2
+    play :eb5, decay: 2
+    wait 2
+    play :eb5, decay: 2
+    wait 2
+  end
+end
+
+
+with_fx :echo, pre_amp: 3, decay: 2 do
+  1.times do
+    use_synth :piano
+    play :bb4, decay: 2
+    wait 2
+    play :bb5, decay: 2
+    wait 2
+    play :f5, decay: 2
+    wait 2
+    play :f5, decay: 2
+    wait 2
+    play :eb5, decay: 2
+    wait 2
+    play :bb5, decay: 2
+    wait 2
+    play :bb4, decay: 2
+    wait 2
+    play :bb4, decay: 2
+    wait 2
+    play :bb4, decay: 2
+    wait 2
+    play :d5, decay: 2
+    wait 2
+    play :bb5, decay: 2
+    wait 2
+    play :bb5, decay: 0.75
+    wait 0.75
+    play :c6, decay: 1.25
+    wait 1.25
+    play :bb5, decay: 2
+    wait 2
+    play :f5, decay: 2
+    wait 2
+    play :bb4
+    play :c3
+    wait 0.5
+    play :eb6
+    wait 0.5
+    play :d6
+    wait 0.5
+    play :bb5
+    wait 0.5
+    play :g5
+    wait 0.5
+    play :f5
+    wait 0.5
+    play :eb5
+    wait 0.5
+    play :bb4
+    wait 0.5
+  end
+end
+
+#-- buffer 2
+with_fx :lpf, cutoff: 100 do
+  use_synth :pulse
+  play :bb4, decay: 2
+  play :bb3, decay: 2
+  wait 2
+  play :bb5, decay: 2
+  play :bb4, decay: 2
+  wait 2
+  play :f5, decay: 4
+  play :f4, decay: 4
+  wait 4
+  play :eb4, decay: 2
+  play :eb3, decay: 2
+  wait 2
+  play :bb5, decay: 2
+  play :bb4, decay: 2
+  wait 2
+  play :bb4, decay: 4
+  play :bb3, decay: 4
+  wait 4
+  play :bb4, decay: 2
+  play :bb3, decay: 2
+  wait 2
+  play :d5, decay: 2
+  play :d4, decay: 2
+  wait 2
+  play :bb5, decay: 3
+  play :bb4, decay: 3
+  wait 3
+  play :c6, decay: 1
+  play :c5, decay: 1
+  wait 1
+  play :bb4, decay: 2
+  play :bb5, decay: 2
+  wait 2
+  play :f4, decay: 2
+  play :f5, decay: 2
+  wait 2
+  play :eb4, decay: 4
+  play :eb3, decay: 4
+  wait 4
+end
+with_fx :lpf, cutoff: 100 do
+  use_synth :saw
+  play :bb4, decay: 2
+  play :bb3, decay: 2
+  wait 2
+  play :bb5, decay: 2
+  play :bb4, decay: 2
+  wait 2
+  play :f5, decay: 2
+  play :f4, decay: 2
+  wait 2
+  play :f6, decay: 0.5
+  wait 0.5
+  play :g6, decay: 0.5
+  wait 0.5
+  play :f6, decay: 0.5
+  wait 0.5
+  play :eb6, decay: 0.5
+  wait 0.5
+  play :eb4, decay: 2
+  play :eb3, decay: 2
+  wait 2
+  play :bb5, decay: 2
+  play :bb4, decay: 2
+  wait 2
+  play :bb4, decay: 2
+  play :bb3, decay: 2
+  wait 2
+  play :d4
+  wait 0.5
+  play :ds4
+  wait 0.5
+  play :g4
+  wait 0.5
+  play :c5
+  wait 0.5
+  play :bb4, decay: 2
+  play :bb3, decay: 2
+  wait 2
+  play :d5, decay: 2
+  play :d4, decay: 2
+  wait 2
+  play :eb5, decay: 2
+  play :bb5, decay: 2
+  wait 2
+  play :eb5, decay: 0.5
+  wait 0.5
+  play :d5, decay: 0.5
+  wait 0.5
+  play :eb5, decay: 0.5
+  wait 0.5
+  play :f5, decay: 0.5
+  wait 0.5
+  play :g5, decay:2
+  play :bb5, decay:2
+  wait 2
+  play :f4, decay: 2
+  play :f5, decay: 1.5
+  wait 1.5
+  play :eb5, decay: 0.5
+  wait 0.5
+  play :eb4, decay: 4
+  play :eb3, decay: 4
+  wait 4
+end
+
+with_fx :lpf, cutoff: 100 do
+  use_synth :saw 
+  play :bb4, decay: 2
+  play :bb3, decay: 2
+  wait 2
+  play :bb5, decay: 2
+  play :bb4, decay: 2
+  wait 2
+  play :f5, decay: 4
+  play :f4, decay: 4
+  wait 4
+  play :eb4, decay: 2
+  play :eb3, decay: 2
+  wait 2
+  play :bb5, decay: 2
+  play :bb4, decay: 2
+  wait 2
+  play :bb4, decay: 4
+  play :bb3, decay: 4
+  wait 4
+  play :bb4, decay: 2
+  play :bb3, decay: 2
+  wait 2
+  play :d5, decay: 2
+  play :d4, decay: 2
+  wait 2
+  play :bb5, decay: 3
+  play :bb4, decay: 3
+  wait 3
+  play :c6, decay: 1
+  play :c5, decay: 1
+  wait 1
+  play :bb4, decay: 2
+  play :bb5, decay: 2
+  wait 2
+  play :f4, decay: 2
+  play :f5, decay: 2
+  wait 2
+  play :eb4, decay: 4
+  play :eb3, decay: 4
+  wait 4
+end
+
+with_fx :lpf, cutoff: 100 do
+  use_synth :pulse
+  play :bb4, decay: 2
+  play :bb3, decay: 2
+  wait 2
+  play :bb5, decay: 2
+  play :bb4, decay: 2
+  wait 2
+  play :f5, decay: 2
+  play :f4, decay: 2
+  wait 2
+  play :f6, decay: 0.5
+  wait 0.5
+  play :g6, decay: 0.5
+  wait 0.5
+  play :f6, decay: 0.5
+  wait 0.5
+  play :eb6, decay: 0.5
+  wait 0.5
+  play :eb4, decay: 2
+  play :eb3, decay: 2
+  wait 2
+  play :bb5, decay: 2
+  play :bb4, decay: 2
+  wait 2
+  play :bb4, decay: 2
+  play :bb3, decay: 2
+  wait 2
+  play :d4
+  wait 0.5
+  play :ds4
+  wait 0.5
+  play :g4
+  wait 0.5
+  play :c5
+  wait 0.5
+  play :bb4, decay: 2
+  play :bb3, decay: 2
+  wait 2
+  play :d5, decay: 2
+  play :d4, decay: 2
+  wait 2
+  play :eb5, decay: 2
+  play :bb5, decay: 2
+  wait 2
+  play :eb5, decay: 0.5
+  wait 0.5
+  play :d5, decay: 0.5
+  wait 0.5
+  play :eb5, decay: 0.5
+  wait 0.5
+  play :f5, decay: 0.5
+  wait 0.5
+  play :g5, decay:2
+  play :bb5, decay:2
+  wait 2
+  play :f4, decay: 2
+  play :f5, decay: 1.5
+  wait 1.5
+  play :eb5, decay: 0.5
+  wait 0.5
+  play :eb4, decay: 0.5
+  play :eb3, decay: 3
+  wait 0.5
+  play :eb4, decay: 0.5
+  wait 0.5
+  play :d4, decay: 0.5
+  wait 0.5
+  play :bb4, decay: 0.5
+  wait 0.5
+  play :g4, decay: 0.5
+  wait 0.5
+  play :f4, decay: 0.5
+  wait 0.5
+  play :eb4, decay: 0.5
+  wait 0.5
+  play :bb4, decay: 0.5
+  wait 0.5
+end
+
+#-- buffer 3
+sample :drum_splash_hard
+
+#-- buffer 4
+sample :sn_dolf
+#-- buffer 5
+with_fx :lpf, cutoff: 50 do
+  use_synth :saw 
+  play :bb4, decay: 2
+  play :bb3, decay: 2
+  wait 2
+  play :bb5, decay: 2
+  play :bb4, decay: 2
+  wait 2
+  play :f5, decay: 2
+  play :f4, decay: 2
+  wait 2
+  play :f6, decay: 0.5
+  wait 0.5
+  play :g6, decay: 0.5
+  wait 0.5
+  play :f6, decay: 0.5
+  wait 0.5
+  play :eb6, decay: 0.5
+  wait 0.5
+  play :eb4, decay: 2
+  play :eb3, decay: 2
+  wait 2
+  play :bb5, decay: 2
+  play :bb4, decay: 2
+  wait 2
+  play :bb4, decay: 2
+  play :bb3, decay: 2
+  wait 2
+  play :d4
+  wait 0.5
+  play :ds4
+  wait 0.5
+  play :g4
+  wait 0.5
+  play :c5
+  wait 0.5
+  play :bb4, decay: 2
+  play :bb3, decay: 2
+  wait 2
+  play :d5, decay: 2
+  play :d4, decay: 2
+  wait 2
+  play :eb4, decay: 2
+  play :bb4, decay: 2
+  wait 2
+  #start here next
+  play :c6, decay: 1
+  play :c5, decay: 1
+  wait 1
+  play :bb4, decay: 2
+  play :eb4, decay: 2
+  wait 2
+  play :f4, decay: 2
+  play :f5, decay: 2
+  wait 2
+  play :eb4, decay: 4
+  play :eb3, decay: 4
+  wait 4
+end
